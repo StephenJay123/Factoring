@@ -7,6 +7,19 @@ const Solve = document.getElementById("Solve");
 
 answer.textContent = ""
 
+function getGCF(a, b) {
+    a = Math.abs(a);
+    b = Math.abs(b);
+
+    while (b !== 0) {
+        let temp = b;
+        b = a % b;
+        a = temp;
+    }
+
+    return a;
+}
+
 function SolveIt() {
     if((Number(fn.value)) && (Number(sn.value))) {
         var FirstNumber = Number(fn.value)
@@ -50,8 +63,16 @@ function SolveIt() {
 
             answer.textContent = "Answer: " + AllBracketPairs */
 
-            answer.innerHTML =  "Answer: " + "(" + First + variable +  " + " + Second + ")" + "(" + First + variable +  " - " + Second + ")" + " (Note: You may have to factor further)"
+            var GCF = getGCF(First, Second)
 
+            First /= GCF
+            Second /= GCF
+
+            if (GCF != 1) {
+                answer.innerHTML =  "Answer: " + GCF*GCF + "(" + First + variable +  " + " + Second + ")" + "(" + First + variable +  " - " + Second + ")"
+            } else {
+                answer.innerHTML =  "Answer: " + "(" + First + variable +  " + " + Second + ")" + "(" + First + variable +  " - " + Second + ")"
+            }
         } else {
             answer.textContent = "Please make sure both numbers are perfect squares."
         }
