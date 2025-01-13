@@ -1,0 +1,64 @@
+<head>
+    <link rel="stylesheet" href="SquareTrinomials.css">
+    <title>Factoring Equations</title>
+</head> 
+
+<body>
+    <div class="Buttons">
+        <a href="Main.html" class="Button">Home</a>
+    </div>
+
+    <h1 class="Title">How To Factor Perfect Square Trinomials</h1>
+    <h6 class="Credit">By Stephen Jay</h6>
+
+    <h3 class="Definition">Perfect Square Trinomials: A trinomial that can be expressed as a binomial squared </h3>
+    <h3 class="Definition">Equation:</h3>
+    <h3 class="Formula">a² + 2ab + b² = (a + b)² </h3>
+    <h3 class="Formula2">OR </h3>
+    <h3 class="Formula2">a² - 2ab + b² = (a - b)² </h3>
+    <h3 class="Example">Example:</h3>
+    <img src="PerfectSquareExample.png" alt="Example of Squared Trinomial" class="Image">
+    <h3 class="Definition3">How To Solve:</h3>
+    <h4 class="Steps">The first step in factoring Perfect Square Trinomials is to solve for a and b<br> This is done by getting the square root of a as well as the square root of b</h4>
+    <img src="PerfectSquareFirstStep.png" alt="Perfect Square First Step" class="Image2">
+    <h4 class="Steps">The second step in factoring Perfect Square Trinomials is to use the formula (a + b)² <br> Substitute your a and b values into the formula and that will be your answer.</h4> 
+    <img src="PerfectSquareFinalStep.png" alt="Perfect Square Final Step" class="Image2">
+    <h4 class="Steps">Once you have substituted in these values, double check to ensure you cannot factor further. <br> After you've checked and factored if needed, the result is your final answer.</h4>
+    <img src="PerfectSquareFinalAnswer.png" alt="Perfect Square Final Answer" class="Image3">
+
+    <h1 class="Title2">Perfect Square Trinomial Calculator</h1>
+    <div class="ToCenter">
+        <input class="Input" id="FirstNumber" name="numberInput" required>   
+
+        <h3 class="Clarification">x²   </h3>
+
+        <h3 class="Clarification">&nbsp;&nbsp;</h3>
+
+        <select id="operation1" name="operation" class="operation">
+            <option value="+">+</option>
+            <option value="-">-</option>
+        </select>
+        
+        <h3 class="Clarification">&nbsp;&nbsp;</h3>
+    
+        <input class="Input" id="SecondNumber" name="numberInput" required>
+
+        <h3 class="Clarification">x</h3>
+
+        <h3 class="Clarification">&nbsp;&nbsp;</h3>
+
+        <h3 class="Clarification">+</h3>
+
+        <h3 class="Clarification">&nbsp;&nbsp;</h3>
+
+        <input class="Input" id="ThirdNumber" name="numberInput" required>
+
+        <br>
+
+        <button id="Solve" class="Solve" onclick="SolveIt()">Solve</button>
+
+        <h3 id="Answer" class="Answer">Answer: </h3>
+    </div>
+
+    <script src="SquareTrinomials.js"></script> 
+</body>

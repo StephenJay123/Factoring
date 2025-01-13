@@ -1,0 +1,66 @@
+<head>
+    <link rel="stylesheet" href="Easy.css">
+    <title>Factoring Equations</title>
+</head> 
+
+<body>
+    <div class="Buttons">
+        <a href="Main.html" class="Button">Home</a>
+    </div>
+
+    <h1 class="Title">How To Factor Easy Trinomials</h1>
+    <h6 class="Credit">By Stephen Jay</h6>
+
+    <h3 class="Definition">Easy Trinomial: A Polynomial with 3 terms that has a leading coefficient of 1</h3>
+    <h3 class="Definition">Equation:</h3>
+    <h3 class="Formula">ax² + bx + c</h3>
+    <h3 class="Example">Example:</h3>
+    <img src="EasyExample.png" alt="Example of Easy Trinomial" class="Image">
+    <h3 class="Definition3">How To Solve:</h3>
+    <h4 class="Steps">The first step in factoring an Easy Trinomial is to factor out anything if possible. <br> This is done by taking out the Greatest Common Factor for every term and dividing each term by it.</h4>
+    <img src="FirstStepEasy.png" alt="First Easy Trinomial Step" class="Image2">
+    <h4 class="Steps">The second step in factoring an Easy Trinomial is to find two numbers that both add into C and multiply into B.</h4>
+    <img src="SecondStepEasy.png" alt="Second Easy Trinomial Step" class="Image2">
+    <h4 class="Steps">The third step in factoring an Easy Trinomial is to put both of those numbers next to the variable in brackets.</h4>
+    <img src="ThirdStepEasy.png" alt="Third Easy Trinomial Step" class="Image2">
+    <h4 class="Steps">The final step in factoring an Easy Trinomial is to make sure that you cannot factor any further. <br> If you can't factor any further, that is your final answer.</h4>
+    <img src="FinalAnswerEasy.png" alt="Final Easy Trinomial Answer" class="Image3">
+    <h1 class="Title2">Easy Trinomial Calculator</h1>
+    <div class="ToCenter">
+        <input class="Input" id="FirstNumber" name="numberInput" required>   
+
+        <h3 class="Clarification">x²   </h3>
+
+        <h3 class="Clarification">&nbsp;&nbsp;</h3>
+
+        <select id="operation1" name="operation" class="operation">
+            <option value="+">+</option>
+            <option value="-">-</option>
+        </select>
+        
+        <h3 class="Clarification">&nbsp;&nbsp;</h3>
+    
+        <input class="Input" id="SecondNumber" name="numberInput" required>
+
+        <h3 class="Clarification">x</h3>
+
+        <h3 class="Clarification">&nbsp;&nbsp;</h3>
+
+        <select id="operation2" name="operation" class="operation">
+            <option value="+">+</option>
+            <option value="-">-</option>
+        </select>
+
+        <h3 class="Clarification">&nbsp;&nbsp;</h3>
+
+        <input class="Input" id="ThirdNumber" name="numberInput" required>
+
+        <br>
+
+        <button id="Solve" class="Solve" onclick="SolveIt()">Solve</button>
+
+        <h3 id="Answer" class="Answer">Answer: </h3>
+    </div>
+
+    <script src="Easy.js"></script> 
+</body>

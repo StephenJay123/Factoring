@@ -1,0 +1,230 @@
+body{
+    background-color: rgb(30, 30, 30);
+}
+
+.Buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 1em; 
+}
+
+.Button {
+    display: block; 
+    font-size: 1em; 
+    font-family: Helvetica; 
+    font-weight: bold;
+    border-radius: 0.5em;
+    background-color: transparent;
+    border: 0.1em solid white;
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: .33em;
+    width: 4em;
+    cursor: pointer;
+    transition: border-color 0.5s ease, color 0.5s ease;
+    margin-left: 1em;
+    margin-top: 5em;
+    position:fixed;
+}
+
+.Button:hover {
+    border-color: rgba(76, 253, 120, 0.932);
+    color: rgba(76, 253, 120, 0.932);
+    transition: border-color 0.5s ease, color 0.5s ease;
+}
+
+.Title{
+    margin-top: 0em;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 4em;
+    font-weight: bold;
+    color:white;
+}
+
+.Title2{
+    margin-top: -.5em;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 4em;
+    font-weight: bold;
+    color:white;
+}
+
+.Credit{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 1.5em;
+    margin-top: -2em;
+    font-weight: lighter;
+    color:white;
+}
+
+.Definition{
+    margin-top: -1em;
+    font-size: 2em;
+    text-align: center;
+    font-family: Helvetica;
+    color: lightgray;
+}
+
+.Definition2{
+    margin-top: 0em;
+    font-size: 2em;
+    text-align: center;
+    font-family: Helvetica;
+    color: lightgray;
+}
+
+.Definition3{
+    margin-top: 0em;
+    font-size: 4em;
+    margin-bottom: .5em;
+    text-align: center;
+    font-family: Helvetica;
+    color: white;
+}
+
+
+.Steps{
+    margin-top: -1em;
+    font-size: 2em;
+    text-align: center;
+    font-family: Helvetica;
+    color: lightgray;
+}
+
+.Example{
+    margin-top: -3.5em;
+    font-size: 2em;
+    text-align: center;
+    font-family: Helvetica;
+    color: lightgray;
+}
+
+.Formula{
+    margin-top: -.5em;
+    font-size: 5em;
+    margin-bottom: 1.4em;
+    text-align: center;
+    font-family: Helvetica;
+    color: white;
+}
+
+.Formula2{
+    margin-top: -1.5em;
+    font-size: 5em;
+    margin-bottom: 1.4em;
+    text-align: center;
+    font-family: Helvetica;
+    color: white;
+}
+
+.Image{
+    size: .2em;
+    align-items: center;
+    width: 33.6em;
+    height: 14.28em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2em;
+}
+
+.Image2{
+    size: .2em;
+    align-items: center;
+    width: 33.6em;
+    height: 14.28em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2.5em;
+    margin-bottom: 2em;
+}
+
+.Image3 {
+    size: .2em;
+    align-items: center;
+    width: 33.6em;
+    height: 14.28em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -6.5em;
+    margin-bottom: -4.5em;
+}
+
+.Image4 {
+    size: .2em;
+    align-items: center;
+    width: 33.6em;
+    height: 14.28em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -7.5em;
+    margin-bottom: -4.5em;
+}
+
+.Input{
+    border-radius: 1em;
+    background-color: transparent;
+    color:white;
+    border: 0.1em solid white;
+    font-family: helvetica;
+    font-size: 1.5em;
+    width: 3em;
+    text-align: center;
+}
+
+.Clarification {
+    display: inline;
+    color: white;
+    font-family: helvetica;
+    font-size: 1.5em;
+}
+
+.operation{
+    border-radius: 1em;
+    background-color: transparent;
+    color:white;
+    border: 0.1em solid white;
+    font-family: helvetica;
+    font-size: 1.5em;
+    width: 2em;
+    text-align: center;
+}
+
+.ToCenter{
+    margin-top: -2em;
+    align-items: center;
+    text-align: center;
+}
+
+.Solve {
+    font-size: 1.5em; 
+    font-family: Helvetica; 
+    font-weight: bold;
+    border-radius: 0.5em;
+    background-color: transparent;
+    border: 0.15em solid lime;
+    color: lime;
+    padding: 1em;
+    text-align: center;
+    margin-bottom: .33em;
+    margin-top: 1em;
+    width: 12em;
+    cursor: pointer;
+}
+
+.Answer{
+    margin-top: 0.35em;
+    font-size: 3em;
+    text-align: center;
+    font-family: Helvetica;
+    color: white;
+}

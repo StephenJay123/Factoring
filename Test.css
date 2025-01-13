@@ -1,0 +1,158 @@
+body{
+    background-color: rgb(30, 30, 30);
+}
+
+.Buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 1em; 
+}
+
+.Button {
+    display: block; 
+    font-size: 1em; 
+    font-family: Helvetica; 
+    font-weight: bold;
+    border-radius: 0.5em;
+    background-color: transparent;
+    border: 0.1em solid white;
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: .33em;
+    width: 4em;
+    cursor: pointer;
+    transition: border-color 0.5s ease, color 0.5s ease;
+    margin-left: 1em;
+    margin-top: 5em;
+    position:fixed;
+}
+
+.Button:hover {
+    border-color: rgba(76, 253, 120, 0.932);
+    color: rgba(76, 253, 120, 0.932);
+    transition: border-color 0.5s ease, color 0.5s ease;
+}
+
+.Title{
+    margin-top: 0em;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 4em;
+    font-weight: bold;
+    color:white;
+}
+
+.Credit{
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 1.5em;
+    margin-top: -2em;
+    font-weight: lighter;
+    color:white;
+}
+
+.QuestionSpace{
+    margin: auto;
+    display: block;
+    background-color: rgb(50, 50, 50);
+    border-radius: 2em;
+    width: 60em;
+    height: 45em;
+}
+
+.Question{
+    color: white;
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 2em;
+    padding-top: .5em;
+}
+
+.MainQuestion{
+    color: white;
+    font-family: Helvetica;
+    text-align: center;
+    margin-top: -.5em;
+    font-size: 5em;
+}
+
+.Answer{
+    color: white;
+    font-family: Helvetica;
+    text-align: center;
+    margin-top: 0;
+    font-size: 3.5em;
+}
+
+.Reveal{
+    margin-top: -13em;
+    margin-left: 1em;
+    display: block; 
+    font-size: 1em; 
+    font-family: Helvetica; 
+    font-weight: bold;
+    border-radius: 0.5em;
+    background-color: transparent;
+    border: 0.1em solid white;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 6em;
+    cursor: pointer;
+    transition: border-color 0.5s ease, color 0.5s ease;
+}
+
+.Reveal:hover {
+    border-color: rgba(76, 253, 120, 0.932);
+    color: rgba(76, 253, 120, 0.932);
+    transition: border-color 0.5s ease, color 0.5s ease;
+}
+
+.Next{
+    margin-top: -2.5em;
+    margin-left: 53em;
+    display: block; 
+    font-size: 1em; 
+    font-family: Helvetica; 
+    font-weight: bold;
+    border-radius: 0.5em;
+    background-color: transparent;
+    border: 0.1em solid white;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 6em;
+    cursor: pointer;
+    transition: border-color 0.5s ease, color 0.5s ease;
+}
+
+.Next:hover {
+    border-color: rgba(76, 253, 120, 0.932);
+    color: rgba(76, 253, 120, 0.932);
+    transition: border-color 0.5s ease, color 0.5s ease;
+}
+
+.RadioButtons{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 5em;
+    font-family: helvetica;
+    font-size: 3.5em;
+    color: gray;
+}
+
+input[type="radio"] {
+    transform: scale(1.5);
+    margin-top: -2.25em;
+}
+
+label {
+    display: block;
+    margin-bottom: .66em;
+    align-items: center;
+}

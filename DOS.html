@@ -1,0 +1,51 @@
+<head>
+    <link rel="stylesheet" href="DOS.css">
+    <title>Factoring Equations</title>
+</head> 
+
+<body>
+    <div class="Buttons">
+        <a href="Main.html" class="Button">Home</a>
+    </div>
+
+    <h1 class="Title">How To Factor Difference of Squares</h1>
+    <h6 class="Credit">By Stephen Jay</h6>
+
+    <h3 class="Definition">Difference Of Squares: a Binomial with two perfect squares, a positive first term and negative second term.</h3>
+    <h3 class="Definition">Equation:</h3>
+    <h3 class="Formula">a² - b² = (a + b)(a - b) </h3>
+    <h3 class="Example">Example:</h3>
+    <img src="DOSFormula.png" alt="Example of Difference of Squares" class="Image">
+    <h3 class="Definition3">How To Solve:</h3>
+    <h4 class="Steps">The first step in factoring with Difference of Squares is to put the square root of a at the front of the two brackets <br> Follow this up by getting the square root of b and adding it to a in the first bracket and subtracing it from a in the second.</h4>
+    <img src="FirstStepDOS.png" alt="First Difference of Squares Step" class="Image2">
+    <h4 class="Steps">In the example above, that is the final answer. </h4> 
+    <img src="FinalAnswerDOS.png" alt="Second Difference of Squares Step" class="Image3">
+    <h4 class="Steps"> In some cases, you will need to factor additionally to get the answer. <br> Here's an example of a case where you will need to use Difference of Squares twice.</h4>
+    <img src="DOSSecondStep.png" alt="Third Difference of Squares Step" class="Image2">
+    <h4 class="Steps">In this case we will do difference of squares on the second brackets as that contains the negative. <br> Factor again by following the previous steps.</h4>
+    <img src="DOSThirdStep.png" alt="Third Difference of Squares Step" class="Image2">
+    <h4 class="Steps">Continue to factor until you are unable to factor anymore, that is when you reach your answer.</h4>
+    <img src="DOSFinalAnswer2.png" alt="Final Difference of Squares Answer" class="Image4">
+
+    <h1 class="Title2">Difference of Squares Calculator</h1>
+    <div class="ToCenter">
+        <input class="Input" id="FirstNumber" name="numberInput" required>   
+
+        <h3 class="Clarification">x²   </h3>
+
+        <h3 class="Clarification">&nbsp;&nbsp;</h3>
+
+        <h3 class="Clarification">-</h3>
+        
+        <h3 class="Clarification">&nbsp;&nbsp;</h3>
+    
+        <input class="Input" id="SecondNumber" name="numberInput" required>
+
+        <br>
+
+        <button id="Solve" class="Solve" onclick="SolveIt()">Solve</button>
+
+        <h3 id="Answer" class="Answer">Answer: </h3>
+    <script src="DOS.js"></script> 
+</body>
