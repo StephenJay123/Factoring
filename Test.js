@@ -216,7 +216,7 @@ function next(){
 
     while (true) {
         var answerposition1 = Math.round(Math.random() * 3)
-        if (answerposition != answerposition1) {
+        if (answerposition == answerposition1) {
             break
         }
     }
